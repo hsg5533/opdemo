@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>서브 메인등록 페이지</title>
+    <link rel="stylesheet" href="css/common.css" />
+    <script src="js/common.js"></script>
+  </head>
+  <body>
+    <div class="wrap">
+      <main class="sub_page">
+        <header class="main_title">
+          <div class="main_header">
+            <div class="menu_icon">
+              <a href="#">
+                <img src="img/icon/icon_menu.svg" alt="메뉴" />
+              </a>
+            </div>
+            <div class="main_tit">
+              <a href="index.html"> 달콤커피 </a>
+            </div>
+          </div>
+          <div class="menu_nav">
+            <div class="menu_nav_box">
+              <div class="close">
+                <a href="#"><img src="img/icon/icon_close.svg" alt="닫기" /></a>
+              </div>
+              <ul>
+                <li><a href="sub_main.html">메인·소개글</a></li>
+                <li class="nav_active"><a href="sub_menu.html">메뉴</a></li>
+                <li><a href="sub_event.html">이벤트·할인</a></li>
+                <li><a href="mypage.html">마이페이지</a></li>
+                <li><a href="#">매뉴얼</a></li>
+                <li><a href="inquiry.html">문의하기</a></li>
+                <li><a href="login.html">로그인</a></li>
+              </ul>
+            </div>
+          </div>
+          <nav class="sub_tab">
+            <div class="before_icon">
+              <a href="sub_main.html"
+                ><img src="img/icon/icon_arrow_before.svg" alt="이전"
+              /></a>
+            </div>
+            <h2>메인사진/소개글 등록</h2>
+          </nav>
+        </header>
+        <section class="sub_main">
+          <div class="sub_infor_rg">
+            <div class="oneline_infor">
+              <div class="cont_title">
+                <h3>한줄 소개</h3>
+              </div>
+              <div class="oneline">
+                <input type="text" placeholder="한줄 소개글을 입력해주세요" />
+              </div>
+            </div>
+            <div class="infor_photo">
+              <div class="infor_photo_01">
+                <div class="cont_title">
+                  <h3>메인 사진 #1</h3>
+                </div>
+                <ul>
+                  <li>
+                    <p>
+                      20220902-0214-123456-0114-123456-907777-77007-04366-01.png
+                    </p>
+                    <div>
+                      <a href="#" class="delete_btn delete_on">삭제</a>
+                    </div>
+                  </li>
+                  <li>
+                    <img src="img/images/main_sub_img.png" alt="메인사진" />
+                    <div class="reselect">
+                      <a href="#">다시 선택</a>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="infor_photo_02">
+                <div class="cont_title">
+                  <h3>메인 사진 #2</h3>
+                </div>
+                <ul>
+                  <li>
+                    <p>선택된 사진 없음</p>
+                    <div>
+                      <a href="#" class="delete_btn delete_off">삭제</a>
+                    </div>
+                  </li>
+                  <li>
+                    <a class="photo_select">
+                      <img src="img/icon/icon_select.svg" alt="사진 선택" />
+                      <p>사진 선택</p>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="infor_photo_03">
+                <div class="cont_title">
+                  <h3>메인 사진 #3</h3>
+                </div>
+                <ul>
+                  <li>
+                    <p>선택된 사진 없음</p>
+                    <div>
+                      <a href="#" class="delete_btn delete_off">삭제</a>
+                    </div>
+                  </li>
+                  <li>
+                    <a class="photo_select">
+                      <img src="img/icon/icon_select.svg" alt="사진 선택" />
+                      <p>사진 선택</p>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <p class="infor_etc">
+                ＊ 다른 사람의 디자인과 이미지를 허락없이 카피하거나 이용 또는
+                도용할 경우 저작권 침해에 해당됩니다. 디자인 권리침해에 대한
+                손해배상 청구 및 침해죄 형사소송이 있을 수 있으니, 이미지 업로드
+                시 주의를 해주시기 바랍니다.
+              </p>
+            </div>
+            <div class="infor_cont">
+              <div class="cont_title">
+                <h3>소개글</h3>
+              </div>
+              <textarea
+                placeholder="소개글을 입력해주세요"
+                cols="30"
+                rows="5"
+              ></textarea>
+            </div>
+
+            <div class="cm_btn"><a href="#">완료</a></div>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
