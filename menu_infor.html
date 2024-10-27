@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>메뉴 수정 페이지</title>
+    <link rel="stylesheet" href="css/common.css" />
+    <script src="js/common.js"></script>
+  </head>
+  <body>
+    <div class="wrap">
+      <main class="sub_page">
+        <header class="main_title">
+          <div class="main_header">
+            <div class="menu_icon">
+              <a href="#">
+                <img src="img/icon/icon_menu.svg" alt="메뉴" />
+              </a>
+            </div>
+            <div class="main_tit">
+              <a href="index.html"> 달콤커피 </a>
+            </div>
+          </div>
+          <div class="menu_nav">
+            <div class="menu_nav_box">
+              <div class="close">
+                <a href="#"><img src="img/icon/icon_close.svg" alt="닫기" /></a>
+              </div>
+              <ul>
+                <li><a href="sub_main.html">메인·소개글</a></li>
+                <li class="nav_active"><a href="sub_menu.html">메뉴</a></li>
+                <li><a href="sub_event.html">이벤트·할인</a></li>
+                <li><a href="mypage.html">마이페이지</a></li>
+                <li><a href="#">매뉴얼</a></li>
+                <li><a href="inquiry.html">문의하기</a></li>
+                <li><a href="login.html">로그인</a></li>
+              </ul>
+            </div>
+          </div>
+          <nav class="sub_tab">
+            <div class="before_icon">
+              <a href="sub_menu.html"
+                ><img src="img/icon/icon_arrow_before.svg" alt="이전"
+              /></a>
+            </div>
+            <h2>메뉴 정보</h2>
+          </nav>
+        </header>
+        <section class="sub_main">
+          <div class="sub_menu_infor">
+            <div class="menu_infor_tit">
+              <h1>땡모반 주스</h1>
+            </div>
+            <div class="menu_infor_tit">
+              <p>1인 : 4,500원</p>
+            </div>
+            <div class="menu_infor_txt">
+              <p>
+                생생한 생과일만 취급하는 달콤커피에서 여름철 제철 과일 수박을
+                비타민 가득 시원 달콤한 주스로 만나보세요!
+              </p>
+              <img src="img/images/event_img_01.png" alt="메뉴 정보 이미지" />
+            </div>
+            <ul class="btn_box menu_infor_btn">
+              <li class="btn_empty infor_delete_btn">
+                <a href="#">삭제</a>
+              </li>
+              <li class="btn_fill infor_complete_btn">
+                <a href="menu_edit.html">수정</a>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <aside class="modal_delete">
+          <div class="modal_bg"></div>
+          <div class="modal_delete_box">
+            <div class="delete_tit">
+              <p>해당 아이템을 삭제하시겠어요?</p>
+            </div>
+            <ul class="btn_box modal_delete_btn">
+              <li class="btn_empty md_delete_btn">
+                <a href="#">삭제</a>
+              </li>
+              <li class="btn_fill md_cancel_btn">
+                <a href="#">취소</a>
+              </li>
+            </ul>
+          </div>
+        </aside>
+      </main>
+    </div>
+  </body>
+</html>
